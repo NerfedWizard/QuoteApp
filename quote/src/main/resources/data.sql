@@ -1,0 +1,2 @@
+create table quote (id int AUTO_INCREMENT,author text, quote text, category text, popularity double);
+LOAD DATA INFILE "C:\Users\\loeln\\QuoteApp\\quoteapp\\src\\main\\resources\\quotes01.csv" into table (author,quote,category,popularity) quote fields terminated by "::" lines terminated by "\n";
